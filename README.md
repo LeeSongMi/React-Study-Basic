@@ -1,25 +1,43 @@
-# ReactJS로 영화 웹 서비스 만들기
+# Movie App
+React JS Fundamentals Course 
 
 ## 0 INTRODUCTION
-0.0 Introduction
-0.1 Requirements
-0.2 Theory Requirements
-0.3 Why React
+#### 0.0 NOTICE
+#### 0.1 INTRODUCTION
+#### 0.2 THEORY REQUIREMENTS
+#### 0.3 WHY REACT
 
 ## 1 SETUP
-1.0 Creating Your First React App
-1.1 Creating a Github Repository
-1.2 How Does React Work?
+#### 1.0 CREATING YOUR FIRST REACT APP
+#### 1.1 CREATING A GITHUB REPOSITORY
+#### 1.2 HOW DOES REACT WORK?
 
-## 2 JSX & PROPS
-2.0 Creating Your First React Component
-2.1 Reusable Components With JSX + Props
-2.2 Dynamic Component Generation
-2.3 Map Recap
-2.4 Protection With PropTypes
+## 2 JSX&PROPS
+#### 2.0 CREATING YOUR FIRST REACT COMPONENT
+- react는 한 번에 하나의  컴포넌트만 읽을 수 있다!
 
+#### 2.1 REUSABLE COMPONENTS WITH JSX + PROPS
+- JSK: JS를 확장한 React 문법, JS+XML
+- props: 부모 컴포넌트에서 자식 컴포넌트로 전달해주는 데이터
+
+#### 2.2 DYNAMIC COMPONENT GENERATION
+- 웹사이트에 동적 데이터를 추가하자
+- array.map(arrayObj=>func): 배열의 모든 값에 함수를 적용한 새 배열을 반환
+- array.map(func)
+
+#### 2.3 MAP RECAP
+- key 값이 없어서 오류가 생성될 시 id를 추가해 키값으로 설정하는 작업 진행
+#### 2.4 PROTECTION WITH PROPTYPES
+- 들어온 props가 내가 원하는 props인지 확인해보자
+- PropTypes: data type을 확인할 수 있다
+- npm install prop-types
+- 변수명: PropTypes.datatype(ex=string).isRequired
+- 이미지 링크의 데이터 타입은 STRING
 ## 3 STATE
-3.0 Class Components and State
-3.1 All You Need To Know About State
-3.2 Component Life Cycle
-3.3 Planning The Movie Component
+#### 3.0 CLASS COMPONENTS AND STATE
+#### 3.1 ALL YOU NEED TO KNO ABOUT STATE
+#### 3.2 COMPONENT LIFE CYCLE
+#### 3.3 PLANNING THE MOVIE COMPONENT
+## 4 MAKING THE MOVIE APP
+## 5 CONCLUSIONS
+## 6 ROUTING BONUS

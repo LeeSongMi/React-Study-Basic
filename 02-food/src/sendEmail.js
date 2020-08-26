@@ -11,9 +11,11 @@ const sendmail = () => {
 
 function sendEmail() {
     var templateParams = {
-        name:'이송미',
-        url: 'https://www.naver.com'
+        name:data.user_name,
+        url: `http://${host}/change_password/${data.user_no}/${data.code}`,
+        to_email: data.user_id
       };
+
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
   
